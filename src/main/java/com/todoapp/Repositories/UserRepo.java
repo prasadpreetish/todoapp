@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.todoapp.Entities.UserDtls;
 
 @Repository
-public interface userRepo extends JpaRepository<UserDtls,Integer> {
+public interface UserRepo extends JpaRepository<UserDtls,Integer> {
 
 }
