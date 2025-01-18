@@ -21,5 +21,5 @@ public class NotesDtls {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private String title;
-    private String text;
+    private String description;
 }
