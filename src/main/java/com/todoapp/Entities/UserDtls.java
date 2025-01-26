@@ -26,6 +26,7 @@ public class UserDtls {
 
     private String email;
     private String password;
+    private String role = "ROLE_USER";
     
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "user_id")
